@@ -1,0 +1,249 @@
+body{
+    background-color: rgb(22 22 22);
+    font-family: "PT sans", "PlayfairDisplay" , sans-serif;
+}
+
+@font-face {
+    font-family: "PT sans";
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+
+.header{
+    display: inline;
+}
+
+.foot-header{
+    display: inline;
+    padding: 154px;
+    background-color: #000;
+    padding-bottom: 10px;
+}
+
+h3{
+    margin: 0; /* Обнуляем значение отступов */
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 0px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+.number{
+    color: rgb(101, 104, 106);
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.phone-icon{
+    margin-left: 200px;
+}
+
+.work{
+    color: rgb(101, 104, 106);
+    font-size: 13px;    
+}
+
+.time{
+    font-size: 13px;
+    color: rgb(101, 104, 106);
+}
+
+.entrance-icon{
+    margin-left: 800px;
+}
+
+.entrance-regisration{
+    color: rgb(101, 104, 106);
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.dtn{    
+    margin-bottom: 20px;
+}
+
+.dtn-2{
+    background-color: #000;
+}
+
+.btn-3{
+    color: rgb(86, 88, 90);
+}
+
+.porten{
+    width: 100%;
+    max-width: 330px ;
+}
+
+.naw{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22 22 22);
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    text-transform: uppercase;        
+}
+
+.naw:hover {
+	color: #fff;
+	background: rgb(177, 176, 176);
+   	tansition: all .3s linear;
+  	-webkit-transition: all .3s linear;
+   	-moz-transition: all .3s linear; 
+}
+
+.naw-2{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22 22 22);
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    text-transform: uppercase;  
+}
+
+.naw-2:hover {
+	color: #fff;
+	background: rgb(177, 176, 176);
+   	tansition: all .3s linear;
+  	-webkit-transition: all .3s linear;
+   	-moz-transition: all .3s linear; 
+}
+
+.naw-3{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22 22 22);
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    text-transform: uppercase;  
+}
+
+.naw-3:hover {
+	color: #fff;
+	background: rgb(177, 176, 176);
+   	tansition: all .3s linear;
+  	-webkit-transition: all .3s linear;
+   	-moz-transition: all .3s linear;  
+}
+
+.naw-buttions{
+    justify-content: flex-end;
+    display: flex;
+    margin-top: -142px;
+    padding-right: 220px;
+}
+.naw-text,.naw-2-text,.naw-3-text{
+    font-size: 12px;
+}
+
+.naw,.naw-2,.naw-3{
+    border: 0px;
+    height: 100px;
+    padding-top: 43px;
+    padding-bottom: 33px;
+    margin-top: 5px;
+}
+
+.carticon,.magnifiericon{
+    margin-top: 5px;
+}
+
+.navigation{
+    display: inline;
+    padding-bottom: 10px;
+    padding: 117px;
+}
+
+.promo{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    max-width: 1904px;
+    height: 905px;
+    backdrop-filter: brightness(0.5);
+    background-image: url("../image/bodyman.jpg");
+}
+
+.promo::after{
+
+    
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.container-2{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    max-width: 1904px;
+    height: 905px;
+     backdrop-filter: brightness(0.5);    
+}
+
+.promo-label{
+    padding-top: 120px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+    height: 660px;
+    max-width: 319px;
+    width: 100%;
+}
+
+
+.logo-2{
+    text-align: center;
+    flex-direction: column;
+}
+
+.txt{
+    margin: 0 auto;
+    text-align: center;
+    height: 95px;
+    width: 765px;
+    font-family: PT sans;
+    font-size: 16px;
+    color: #fff;
+    font-style: normal;
+    margin-top: -270px;
+}
+
+@font-face{
+    font-family: "PlayfairDisplay";
+    font-style: normal;
+    font-weight: 400;
+    src: local("PlayfairDisplay-Bold"),
+         local("PlayfairDisplay-Regular")
+}
+
+.new-season-txt{
+    font-family: "PlayfairDisplay";
+    font-style: normal;
+    font-weight: 400;
+    src:url(../fonts/PlayfairDisplay-Bold.ttf)
+}
+
+.new-season{
+    width: 100%;
+    max-width: 941px;
+    height: 700px;
+}
+
+
+
+
+
+
