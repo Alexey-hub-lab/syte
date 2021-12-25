@@ -1,0 +1,684 @@
+body{
+    background-color: rgb(22 22 22);
+    font-family: "PT sans", "Playfair Display" , sans-serif;
+}
+
+main{
+    background-color: black;
+}
+
+.header{
+    display: inline;
+}
+
+.foot-header{
+    display: inline;
+    padding: 154px;
+    background-color: #000;
+    padding-bottom: 10px;
+}
+
+h3,a{
+    margin: 0; /* Обнуляем значение отступов */
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 0px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+a{
+    text-decoration: none;
+}
+
+.number{
+    color: rgb(101, 104, 106);
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.phone-icon{
+    margin-left: 200px;
+}
+
+.work{
+    color: rgb(101, 104, 106);
+    font-size: 13px;    
+}
+
+.time{
+    font-size: 13px;
+    color: rgb(101, 104, 106);
+}
+
+.entrance-icon{
+    margin-left: 800px;
+}
+
+.entrance-regisration{
+    color: rgb(101, 104, 106);
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.dtn{    
+    margin-bottom: 20px;
+}
+
+.dtn-2{
+    background-color: #000;
+}
+
+.btn-3{
+    color: rgb(86, 88, 90);
+}
+
+.porten{
+    width: 100%;
+    max-width: 330px ;
+}
+
+.naw{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22 22 22);
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    text-transform: uppercase;        
+}
+
+.naw:hover {
+	color: #fff;
+	background: rgb(177, 176, 176);
+   	tansition: all .3s linear;
+  	-webkit-transition: all .3s linear;
+   	-moz-transition: all .3s linear; 
+}
+
+.naw-2{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22 22 22);
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    text-transform: uppercase;  
+}
+
+.naw-2:hover {
+	color: #fff;
+	background: rgb(177, 176, 176);
+   	tansition: all .3s linear;
+  	-webkit-transition: all .3s linear;
+   	-moz-transition: all .3s linear; 
+}
+
+.naw-3{
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(22 22 22);
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    text-transform: uppercase;  
+}
+
+.naw-3:hover {
+	color: #fff;
+	background: rgb(177, 176, 176);
+   	tansition: all .3s linear;
+  	-webkit-transition: all .3s linear;
+   	-moz-transition: all .3s linear;  
+}
+
+.naw-buttions{
+    justify-content: flex-end;
+    display: flex;
+    margin-top: -138px;
+    padding-right: 220px;
+}
+.naw-text,.naw-2-text,.naw-3-text{
+    font-family: "PT sans";
+    font-size: 12px;
+}
+
+.naw,.naw-2,.naw-3{
+    border: 0px;
+    height: 100px;
+    padding-top: 43px;
+    padding-bottom: 33px;
+    margin-top: 5px;
+}
+
+.carticon,.magnifiericon{
+    margin-top: 5px;
+}
+
+.navigation{
+    display: inline;
+    padding-bottom: 10px;
+    padding: 117px;
+}
+
+.promo{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    max-width: 1904px;
+    height: 905px;
+    backdrop-filter: brightness(0.5);
+    background-image: url("../image/bodyman.jpg");
+}
+
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.container-2{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    max-width: 1904px;
+    height: 905px;
+     backdrop-filter: brightness(0.5);    
+}
+
+.promo-label{
+    padding-top: 120px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+    height: 660px;
+    max-width: 319px;
+    width: 100%;
+}
+
+
+.logo-2{
+    text-align: center;
+    flex-direction: column;
+}
+
+.txt{
+    margin: 0 auto;
+    text-align: center;
+    height: 95px;
+    width: 765px;
+    font-weight: 400;
+    font-family: PT sans;
+    font-size: 16px;
+    color: #fff;
+    font-style: normal;
+    margin-top: -270px;
+}
+
+.new-season-txt{
+    font-family: "Playfair Display";
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
+}
+
+.new-season{
+    width: 100%;
+    max-width: 1040px;
+    height: 730px;
+    background-color: black;
+}
+
+.line{
+    background-color: rgb(46, 46, 46);
+    width: 100px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+.new-season-img-1,.new-season-img-2,.new-season-img-3{
+    justify-content: space-around;
+    display: flex;
+    background-color: #191B1C;
+    width: 100%;
+    max-width: 260px;
+    height: 325px;
+}
+
+.rolex-1,.rolex-2,.rolex-3{
+    display: flex;
+    margin: auto;
+}
+
+.txt-1,.txt-2,.txt-3{
+    color: aliceblue;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.txt-image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-1,.price-2,.price-3{
+    color: aliceblue;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.price-text{
+    margin-top: -48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.catalog{
+    background-image: url(../image/people-are-sitting.png);
+    max-width: 880px;
+    width: 100%;
+    height: 730px;
+}
+
+.new-season-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-collection{
+    color: aliceblue;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.line-catalog{
+    width: 100px;
+}
+
+.catalog-container{
+    margin-top: 429px;
+}
+
+.catalog-text{
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    width: 138px;
+    height: 47px;
+
+}
+
+.catalog-text-2{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: "PT sans";
+    font-weight: 400;
+    margin:  auto;
+}
+
+.collection-2018{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.txt-2018{
+    color: aliceblue;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.collection-18{
+    width: 100%;
+    max-width: 1040px;
+    height: 600px; 
+}
+
+.line-2018{
+    width: 100px;
+    color: blanchedalmond;
+}
+
+.text-2018{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 471px;
+    height: 173px;
+    font-size: 14px;
+    font-family: "PT sans";
+    font-weight: 400;
+}
+
+.text-18{
+    width: 100%;
+    max-width: 471px;
+    height: 173px;
+    margin: 0 auto;
+}
+
+.new-arrivals{
+    background-color: black;
+}
+
+.new-arrivals-txt{
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.new-arrivals-line{
+    width: 100px;
+}
+
+.contaier-rolex-arrivals{
+    width: 100%;
+    max-width: 1155px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 267px 267px 267px 267px;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw ;
+    
+}
+
+.rolex{
+    background-color: #191B1C;
+    width: 100%;
+    max-width: 260px;
+    height: 325px;
+}
+
+.rolex-img{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 47px;
+}
+
+.txt-rolex-1,.txt-rolex-2,.txt-rolex-3,.txt-rolex-4{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.collection-text-2{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: "PT sans";
+    font-style: normal ;
+    font-weight: 400;
+    margin: auto;
+}
+
+.collection-text{
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    width: 255px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.rolex-text{
+    color: #FFFFFF;
+    font-size: 18px;
+    
+    font-family: "Playfair Display";
+    font-style: normal ;
+    font-weight: 400;
+}
+
+.rolex-price{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: "Playfair Display";
+    font-style: normal ;
+    font-weight: 700;
+    
+}
+
+.brends{
+    background-color: #0F0F0F;
+    height: 201px;
+}
+
+.text-brends{
+    color: #fff;
+    font-size: 36px;
+    font-family: "Playfair Display";
+    font-style: normal ;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.text-brends-container{
+    text-align: center;
+}
+
+.brends-line{
+    width: 100px;
+}
+
+.img-brends-contner{
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 267px 267px 267px 267px;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw ;
+    max-width: 1168px;
+    width: 100%;
+}
+
+.about-shop{
+    color: #FFFFFF;
+    font-family: "Playfair Display";
+    font-style: normal ;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+footer{
+    justify-content: space-around;
+    display: flex;
+    padding-top:  50px; 
+    height: 400px;
+    background-image: url(../image/man-footer.png);
+}
+
+.footer-text{
+    width: 100%;
+    max-width: 350px;
+    color: #FFFFFF;
+    font-family: "PT sans";
+    font-weight: 400;
+}
+
+.categories-txt{
+    color: #FFFFFF;
+    font-family: "Playfair Display";
+    font-style: normal ;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+
+.clock-text{
+    margin: auto;
+    font-size: 14px;
+}
+
+.clock-contaener{
+    display: flex;
+    border: 1px solid #000000;
+    width: 75px;
+    height: 35px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    background: black
+}
+
+.container-footer{
+    display: grid;
+    grid-template-rows: 0fr 0fr 1fr;
+    grid-template-columns: 59px 97px 267px;
+    grid-column-gap: 2vw;
+    grid-row-gap: 0vw ;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+
+}
+
+.bracelet{
+    display: flex;
+    border: 1px solid #000000;
+    width: 108px;
+    height: 35px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    background: black
+}
+
+.bracelet-text{
+    margin: auto;
+    font-size: 14px;
+}
+
+.belts{
+    display: flex;
+    border: 1px solid #000000;
+    width: 108px;
+    height: 35px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    background: black;
+}
+
+.belts-text{
+    margin: auto;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.jewelry{
+    display: flex;
+    border: 1px solid #000000;
+    width: 188px;
+    height: 35px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    background: black;
+}
+
+.jewelry-text{
+    margin: auto;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.cufflinks{
+    display: flex;
+    border: 1px solid #000000;
+    width: 108px;
+    height: 35px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    background: black;
+}
+
+.cufflinks-text{
+    margin: auto;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.cufflinks-container{
+    margin-left: 134px;
+}
+
+.mailing{
+    color: #FFFFFF;
+    font-family: "Playfair Display";
+    font-style: normal ;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.mailing-text{
+    color: #FFFFFF;
+    font-family: "PT sans";
+    font-style: normal ;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mailing-container{
+    width: 100%;
+    max-width: 500px;
+}
+
+.footer-container{
+  display: grid;
+  grid-template-columns: 500px 500px 267px ;
+  grid-column-gap: 2vw;
+  grid-row-gap: 0vw ;
+}
+
+.email{
+    width: 100%;
+    max-width: 200px;
+    height: 54px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.email-buttion{
+    color: #FFFFFF;
+    background-color: #000;
+    font-family: "PT sans";
+    font-style: normal ;
+    font-weight: 400;
+    border: 0px;
+    width: 150px;
+    height: 40px;
+}
